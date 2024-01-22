@@ -20,7 +20,7 @@ spec:
       default: "https://cloud.ibm.com"
     - name: ibmcloud-apikey-secret-key
       description: Field in the secret that contains the api key used to login to ibmcloud
-      default: apikey
+      default: toolchain-apikey
     - name: ibmcloud-region
       description: (Optional) ibmcloud region to use
       default: ""
